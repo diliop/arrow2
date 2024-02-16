@@ -16,7 +16,7 @@ bench = false
 
 [dependencies]
 foreign_vec = "0.1.0"
-either = "1.6"
+either = "1.8"
 num-traits = "0.2"
 dyn-clone = "1"
 bytemuck = { version = "1", features = ["derive"] }

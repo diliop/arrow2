@@ -1,3 +1,7 @@
+#[cfg(simd_prelude)]
+use std::simd::prelude::{SimdFloat as _, SimdInt as _, SimdOrd as _, SimdUint as _};
+
+#[cfg(not(simd_prelude))]
 use std::simd::{SimdFloat as _, SimdInt as _, SimdOrd as _, SimdUint as _};
 
 use crate::types::simd::*;
